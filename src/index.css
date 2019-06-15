@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-attachment: fixed;
+  background-image: url("./images/cover_photo.JPG");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  
+
+
+    
