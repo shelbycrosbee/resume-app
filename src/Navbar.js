@@ -3,33 +3,24 @@ import './App.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Parallax, Background } from 'react-parallax';
 
-class NavbarComponent extends React.Component{
 
 
-render(){
-  return(
-    <div>
+class NavbarComponent extends React.Component {
 
-<Navbar bg="dark" variant="dark" expand="lg">
-  <Navbar.Brand href="#home">Shelby Miller</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Resume</Nav.Link>
-      <Nav.Link href="#link">Contact</Nav.Link>
-      <NavDropdown title="Projects" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Star In A Jar</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Stirling Engine</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Projects Home</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-  
-  </Navbar.Collapse>
-</Navbar>
-</div>
-  )};
+
+  render() {
+    return (
+      <Parallax strength={300}>
+        <Background className="custom-bg">
+                <img src="./images/banner.jpg" alt="banner pic" />
+            </Background>
+           
+        <h1>Shelby Miller</h1>
+        
+      </Parallax>
+    )
+  };
 }
 export default NavbarComponent
