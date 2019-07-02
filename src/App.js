@@ -18,14 +18,14 @@ class App extends React.Component {
   render() {
     return (
 
-      // <ParallaxProvider>
+
 
         <Container>
           <NavbarComponent />
         </Container>
       
 
-    // {/* </ParallaxProvider> */}
+
 
     );
   }
