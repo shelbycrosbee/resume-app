@@ -17,7 +17,12 @@ class NavbarComponent extends React.Component {
             <Nav className="mr-auto">
               <Nav.Link href="#link">Contact</Nav.Link>
               <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+              <NavDropdown title="Portfolio" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.1">Physics</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Art</NavDropdown.Item>
+              </NavDropdown>
             </Nav>
 
           </Navbar.Collapse>
