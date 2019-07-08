@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Container, ListGroup, Dropdown, ListGroupItem } from 'react-bootstrap'
+import {  Container, Dropdown, } from 'react-bootstrap'
 
 class References extends React.Component {
 

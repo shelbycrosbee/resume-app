@@ -1,40 +1,54 @@
 import React from "react";
 import '../index.css';
-import { Col, Row } from 'react-bootstrap'
+import { Col, Row, Container } from 'react-bootstrap'
 import Contact from './Contact/Contact'
 import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
-import river from '../images/owyhee.jpg'
-import ski from '../images/ski.jpg'
-import { Route, Switch, Link, withRouter } from 'react-router-dom';
 
 
-const pictures = {
-  river,
-  ski
-}
 class Layout extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
-  
-  this.state = {
-    pictures: null
-  }
-  }
-  
 
- 
+    this.state = {
+      pictures: null
+    }
+  }
+
+
+
 
   render() {
 
     return (
-      
-<Row>
-  <Col><Contact/></Col>
-  <Col><ResumeLink /></Col>
-  <Col><PortfolioLink/></Col>
-</Row>
-  )
+      <Container>
+        <div><h1>Shelby Miller</h1></div>
+
+        <div className='parallax'>
+        </div>
+
+        <Row style={{ height: "0px" }}>
+          <Col><Contact /></Col>
+        </Row>
+        <div className='parallax'></div>
+
+        <div className="parallax"></div>
+        <Row style={{
+          height:
+            '0px'
+        }}><ResumeLink /></Row>
+        <div className="parallax"></div>
+
+
+        <div className="parallax"></div>
+        <Row style={{
+          height:
+            '0px'
+        }}><PortfolioLink /></Row>
+        <div className="parallax"></div>
+
+      </Container>
+    )
   }
 }
 export default Layout

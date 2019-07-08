@@ -8,7 +8,7 @@ class StarInJar extends React.Component{
     return(
       <Container>
       <Col>
-        <h2 class="text-center"><a href="http://lcphysx.lclark.edu/project/star-in-a-jar/" target="_blank"><strong> Star in A
+        <h2 class="text-center"><a href="http://lcphysx.lclark.edu/project/star-in-a-jar/" target="_blank" rel="noopener noreferrer"><strong> Star in A
               Jar: </strong></a><br />
           Built a nuclear fusor by creating a vacuum chamber and running a strong electric current
           inside.

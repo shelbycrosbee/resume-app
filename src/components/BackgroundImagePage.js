@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap'
 
 const BackgroundImagePage = () => {
   return (
-      <Container className="bg"></Container>
+      <Container></Container>
   );
 }
 

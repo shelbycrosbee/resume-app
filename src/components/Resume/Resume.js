@@ -1,17 +1,17 @@
 import React from 'react';
-import { Col, Row, Container, ListGroup, ListGroupItem,  } from 'react-bootstrap'
+import { Col, Row, Container,  } from 'react-bootstrap'
 import References from './References'
 import Education from './Education'
 import Skills from './Skills';
 import Experience from './Experience';
-
+import Navbar from '../Navbar'
 
 class Resume extends React.Component {
 
   render() {
     return (
       <Container>
-
+         <Navbar/> 
         <br />
         <Row>
           <Experience />

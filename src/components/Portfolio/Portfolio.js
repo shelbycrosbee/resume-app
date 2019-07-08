@@ -1,7 +1,8 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import StarInJar from './StarInJar'
 import Stirling from './Stirling';
+import Navbar from '../Navbar'
 
 
 
@@ -10,14 +11,17 @@ class Portfolio extends React.Component {
 
   render() {
     return (
-      <Row>
-        <Col md>
-        <StarInJar />
-        </Col>
-        <Col md>
-        <Stirling />
-        </Col>
-      </Row>
+      <Container>
+        <Navbar />
+        <Row>
+          <Col md>
+            <StarInJar />
+          </Col>
+          <Col md>
+            <Stirling />
+          </Col>
+        </Row>
+      </Container>
     )
   }
 }
