@@ -1,7 +1,9 @@
 import React from "react";
 import '../index.css';
 import { Col, Row } from 'react-bootstrap'
-import Contact from './Contact'
+import Contact from './Contact/Contact'
+import ResumeLink from './Resume/ResumeLink'
+import PortfolioLink from "./Portfolio/PortfolioLink";
 
 
 class Layout extends React.Component {
@@ -12,8 +14,8 @@ class Layout extends React.Component {
     return (
 <Row>
   <Col><Contact/></Col>
-  <Col>Resume</Col>
-  <Col>Portfolio</Col>
+  <Col><ResumeLink /></Col>
+  <Col><PortfolioLink/></Col>
 </Row>
   )
   }

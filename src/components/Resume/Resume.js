@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Row, Container, ListGroup, ListGroupItem,  } from 'react-bootstrap'
-import References from './Resume/References'
-import Education from './Resume/Education'
-import Skills from './Resume/Skills';
-import Experience from './Resume/Experience';
+import References from './References'
+import Education from './Education'
+import Skills from './Skills';
+import Experience from './Experience';
 
 
 class Resume extends React.Component {
@@ -12,7 +12,7 @@ class Resume extends React.Component {
     return (
       <Container>
 
-        <Row><br /></Row>
+        <br />
         <Row>
           <Experience />
         </Row>
