@@ -15,7 +15,7 @@ class Education extends React.Component{
       </h5>
       <ul>
         <li>Graduated summa cum laude with a 3.914 GPA</li>
-        <li>Member of the Phi Beta Kappa society</li>
+        <li>Member of the Phi Beta Kappa Society</li>
         <li>Minor in Mathematics</li>
       </ul>
       <h5><strong>Montana Code School</strong><br />

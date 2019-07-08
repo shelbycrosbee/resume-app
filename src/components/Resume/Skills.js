@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, ListGroup, ListGroupItem, } from 'react-bootstrap'
+import { Col, Row, ListGroup, ListGroupItem } from 'react-bootstrap'
 
 class Skills extends React.Component {
   render() {
@@ -31,7 +31,6 @@ class Skills extends React.Component {
             <ListGroup.Item>Bootstrap</ListGroup.Item>
             <ListGroupItem>Redux</ListGroupItem>
             <ListGroupItem>Adonis.js</ListGroupItem>
-
             <ListGroup.Item>Microsoft Office</ListGroup.Item>
             <ListGroup.Item>WordPress</ListGroup.Item>
             <ListGroup.Item>Google Drive</ListGroup.Item>

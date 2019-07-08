@@ -22,12 +22,12 @@ class Resume extends React.Component {
            <Education/>
           </Col>
 
-          <Col>
+          <Col className={'justify-content-center'}>
             <References/>
           </Col>
         </Row>
 
-        <br />
+    
         <Row>
           <Skills/>
         </Row>

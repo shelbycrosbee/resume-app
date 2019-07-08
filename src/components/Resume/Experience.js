@@ -19,7 +19,7 @@ class Experience extends React.Component {
         <ul>
           <li>
             Cultivated an ablility to handle the pressure of customer needs for fast service and quick turnaround in a
-            highly trafficked vacation based business. Succeeded in tailoring to a customer's specific preferences
+            highly trafficked, vacation based business. Succeeded in tailoring to a customer's specific preferences
             while renting, maintaining and repairing ski and snowboard equipment.
             </li>
         </ul>
@@ -31,7 +31,7 @@ class Experience extends React.Component {
         <p>Raft Guide</p>
         <ul>
           <li>Provided excellent customer service and demonstrated professionalism and leadership capabilities while
-            guiding guests on paddle rafts for one and two days trips on the Gallatin River</li>
+            guiding guests on paddle rafts for one and two days trips on the Gallatin River.</li>
         </ul>
 
       </Row>
@@ -68,16 +68,16 @@ class Experience extends React.Component {
         <p>Raft Guide/Outdoor Educator and Warehouse Staff</p>
         <ul>
           <li>
-            Gained leadership experience and group management skills as a guide and educator, taking students on
+            Gained leadership experience and group management skills as a guide and educator. Guided students on
             multi-day rafting, surfing and yoga trips, teaching participants skills in raft guiding, outdoor
             survival/safety, teamwork and communication.
           </li>
         </ul>
 
-        <Col sm><strong>West Bend Property Compay</strong>-Bend, OR
+        <Col sm><strong>West Bend Property Company</strong>-Bend, OR
         <br /><small>2012-2014</small></Col>
 
-        <p>Front Dest/ Reception</p>
+        <p>Front Desk/ Reception</p>
         <ul>
           <li>
             Practiced organizational and mediation skills as the front desk and office assistant for a property
