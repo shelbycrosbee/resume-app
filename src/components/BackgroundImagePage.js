@@ -1,11 +1,12 @@
 import React from "react";
 import '../index.css';
+import { Container } from 'react-bootstrap'
 
 
 
 const BackgroundImagePage = () => {
   return (
-      <div className="bg"></div>
+      <Container className="bg"></Container>
   );
 }
 

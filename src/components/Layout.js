@@ -6,6 +6,7 @@ import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
 import river from '../images/owyhee.jpg'
 import ski from '../images/ski.jpg'
+import { Route, Switch, Link, withRouter } from 'react-router-dom';
 
 
 const pictures = {
@@ -22,9 +23,12 @@ class Layout extends React.Component {
   }
   
 
+ 
+
   render() {
 
     return (
+      
 <Row>
   <Col><Contact/></Col>
   <Col><ResumeLink /></Col>
