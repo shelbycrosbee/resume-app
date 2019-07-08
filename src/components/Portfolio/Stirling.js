@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import image from './enginesilhouette.jpg'
 
 class Stirling extends React.Component{
 
@@ -11,7 +12,7 @@ class Stirling extends React.Component{
           </strong></a><br /> Construction of a Stirling engine in order to investigate different thermodynamic
         properties
       </h2>
-      <img src="./images/Optimized photos/enginesilhouette.jpg" class="img-fluid rounded px-2 center-block"
+      <img src={image} class="img-fluid rounded px-2 center-block"
         alt="engine pic" />
     </Col>
   
