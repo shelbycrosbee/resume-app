@@ -22,8 +22,30 @@ body, html {
   background-size: cover;
   }
 
+.resumeImg {
+  background-image: url('./images/ski.jpg');
+  background-size: cover;
+  background-repeat: no-repeat
+}
   
-  
+.contactImg {
+  background-image: url('./images/headstand.JPG');
+  background-size: 200px;
+  background-repeat: no-repeat
+}
 
+.portfolioImg {
+  background-image: url('./images/sunset.JPG');
+  background-size: cover;
+  background-repeat: no-repeat
+}
 
+.headerImg {
+  background-image: url('./images/laugh.JPG');
+   background-size: 100px;
+   background-repeat: no-repeat
+}
     
+/* .nameFont {
+  font
+} */

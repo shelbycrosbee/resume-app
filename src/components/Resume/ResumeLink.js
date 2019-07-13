@@ -1,6 +1,7 @@
 import React from 'react';
-import { Button } from 'react-bootstrap'
-import { withRouter } from 'react-router-dom'
+import { Button } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
+import '../../index.css';
 class ResumeLink extends React.Component {
 
   handleResumeLink(e){
@@ -10,7 +11,10 @@ class ResumeLink extends React.Component {
 
   render() {
     return (
+ 
       <Button onClick={e => this.handleResumeLink(e)} variant={"dark"}>Resume</Button>
+      
+      
     )
   }
 }

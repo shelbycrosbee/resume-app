@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, } from 'react-bootstrap';
-import image from './enginesilhouette.jpg'
+import image from '../../images/enginesilhouette.jpg'
 
 class Stirling extends React.Component{
 
