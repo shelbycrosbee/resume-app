@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import BackgroundImagePage from "./components/BackgroundImagePage";
 import Resume from "./components/Resume/Resume";
 import Container from "react-bootstrap/Container";
 import { Route, Switch } from 'react-router-dom';
@@ -23,7 +22,7 @@ function App() {
       <Route exact path="/" render={props =>
         <Container>
           <Layout/>
-          <BackgroundImagePage />
+          
         </Container>}
       />
 

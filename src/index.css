@@ -31,7 +31,8 @@ body, html {
 .contactImg {
   background-image: url('./images/headstand.JPG');
   background-size: 200px;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  align-content: center
 }
 
 .portfolioImg {
@@ -46,6 +47,9 @@ body, html {
    background-repeat: no-repeat
 }
     
-/* .nameFont {
-  font
-} */
+.logo {
+  background-image: url('./images/logo.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  align-content: flex-end
+} 

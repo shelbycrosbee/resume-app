@@ -1,9 +1,11 @@
 import React from "react";
 import '../index.css';
-import { Row, Container } from 'react-bootstrap'
+import { Col, Row, Container } from 'react-bootstrap'
 import Contact from './Contact/Contact'
 import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
+import laugh from '../images/laugh.JPG'
+import logo from '../images/logo.png'
 
 
 class Layout extends React.Component {
@@ -22,9 +24,13 @@ class Layout extends React.Component {
 
     return (
       <Container>
-        <div className="headerImg justify-content-center" style={{ height: '100px' }}>
-          <h1>Shelby Miller</h1>
-        </div>
+        <Row style={{ height: '100px' }}>
+          <Col><img src={laugh} style={{ height: '100px'}}/></Col>
+          <Col><img src={logo} style={{ height: '100px', alignContent:'flex-end'}}/></Col>
+        </Row>
+        
+         
+        
 
         <div className='parallax'></div>
         <Row style={{ height: "300px" }} className="contactImg justify-content-center">
