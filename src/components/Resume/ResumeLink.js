@@ -12,8 +12,7 @@ class ResumeLink extends React.Component {
   render() {
     return (
  
-      <Button onClick={e => this.handleResumeLink(e)} variant={"dark"}>Resume</Button>
-      
+      <a onClick={e => this.handleResumeLink(e)}>Resume</a>
       
     )
   }

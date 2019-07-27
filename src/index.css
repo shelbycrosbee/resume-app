@@ -30,9 +30,10 @@ body, html {
   
 .contactImg {
   background-image: url('./images/headstand.JPG');
-  background-size: 200px;
+  background-size: 500px;
   background-repeat: no-repeat;
-  align-content: center
+  background-position: center
+  
 }
 
 .portfolioImg {
@@ -42,7 +43,7 @@ body, html {
 }
 
 .headerImg {
-  background-image: url('./images/laugh.JPG');
+  background-image: url('./images/laugh.png');
    background-size: 100px;
    background-repeat: no-repeat
 }
@@ -53,3 +54,7 @@ body, html {
   background-repeat: no-repeat;
   align-content: flex-end
 } 
+
+.portfolioSizing{
+  height: 200px;
+}

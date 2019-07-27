@@ -10,7 +10,7 @@ render(){
 
     <Dropdown>
     <Dropdown.Toggle variant="dark" id="dropdown-basic">
-     <strong>Contact</strong>
+    Contact
      </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item  className="fas fa-phone-square" href="tel:+15413069775" target="_blank">(541)306-977</Dropdown.Item>

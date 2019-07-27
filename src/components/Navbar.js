@@ -24,7 +24,6 @@ class NavbarComponent extends React.Component {
                 <NavDropdown.Item href="#action/3.2">Art</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-
           </Navbar.Collapse>
         </Navbar>
       </div>

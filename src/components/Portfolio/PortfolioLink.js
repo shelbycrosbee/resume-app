@@ -1,5 +1,4 @@
 import React from 'react';
-import {Button} from 'react-bootstrap'
 import { withRouter, } from 'react-router-dom'
 
 class PortfolioLink extends React.Component {
@@ -11,7 +10,7 @@ handlePortfolioLink(e){
 
   render() {
     return (
-      <Button onClick = {e => this.handlePortfolioLink(e)} variant={'dark'}>Portfolio</Button>
+      <a onClick = {e => this.handlePortfolioLink(e)} className='link'>PORTFOLIO</a>
     )
   }
 }
