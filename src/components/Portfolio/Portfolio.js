@@ -5,6 +5,7 @@ import Stirling from './Stirling';
 import Navbar from '../Navbar'
 import Engine from '../../images/enginesilhouette.jpg'
 import Star from '../../images/starjar.jpg'
+import Plant from './Plant'
 
 
 
@@ -35,7 +36,7 @@ class Portfolio extends React.Component {
         </Row>
         <h2 class='text-center'><u>Art Portfolio</u></h2>
         <Row>
-
+        <Plant />
         </Row>
       </div>
     )
