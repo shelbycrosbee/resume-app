@@ -7,7 +7,6 @@ import PortfolioLink from "./Portfolio/PortfolioLink";
 import laugh from '../images/laugh.png'
 import logo from '../images/logo.png'
 import ContactPage from './Contact/ContactPage'
-import ScrollArea from 'react-scrollbar'
 
 
 class Layout extends React.Component {
@@ -48,7 +47,7 @@ class Layout extends React.Component {
           className="portfolioImg justify-content-center">
           <PortfolioLink />
         </Row>
-        <div className="parallax"></div>
+        
 
       </div>
       </div>
