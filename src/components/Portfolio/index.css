@@ -3,7 +3,10 @@
   font-size: 50px
 }
 
-.resFont {
-  font-family: 'Cormorant Garamond', serif;
+.portFont {
+  font-family: 'Quando', serif;
 }
 
+.px {
+  margin-left: 5px
+}

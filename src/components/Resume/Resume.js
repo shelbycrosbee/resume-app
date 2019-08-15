@@ -5,30 +5,31 @@ import Education from './Education'
 import Skills from './Skills';
 import Experience from './Experience';
 import Navbar from '../Navbar'
+import './index.css'
 
 class Resume extends React.Component {
 
   render() {
     return (
-      <Container>
+      <Container >
          <Navbar/> 
         <br />
-        <Row>
+        <Row className='resFont'>
           <Experience />
         </Row>
 
-        <Row>
+        <Row className='resFont'>
           <Col>
            <Education/>
           </Col>
 
-          <Col className={'justify-content-center'}>
+          <Col className={'justify-content-center resFont'}>
             <References/>
           </Col>
         </Row>
 
     
-        <Row>
+        <Row className='resFont'>
           <Skills/>
         </Row>
 

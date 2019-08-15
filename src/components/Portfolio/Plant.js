@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import rPlant from '../../images/plant.jpg'
 import '../../index.css'
+import deer from '../../images/deer.JPG'
 
 class Plant extends React.Component {
 
@@ -20,7 +21,17 @@ class Plant extends React.Component {
             <p>Charcoal 6ft by 4ft</p>
           </Carousel.Caption>
         </Carousel.Item>
-
+        <Carousel.Item>
+          <img
+            className="d-block w-100 artPortfolioSizing"
+            src={deer}
+            alt="deer"
+          />
+          <Carousel.Caption>
+            <h3>Painting of Buck</h3>
+            <p>Watercolor 4ft by 2.5ft</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
 
 

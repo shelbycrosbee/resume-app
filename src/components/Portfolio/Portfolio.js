@@ -6,6 +6,7 @@ import Navbar from '../Navbar'
 import Engine from '../../images/enginesilhouette.jpg'
 import Star from '../../images/starjar.jpg'
 import Plant from './Plant'
+import './index.css'
 
 
 
@@ -16,25 +17,20 @@ class Portfolio extends React.Component {
     return (
       <div>
         <Navbar />
-        <h2 class='text-center'><u>Undergraduate Physics Projects</u></h2>
-        <Row>
+        <br/>
+        <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
+        <Row className="portFont">
           <Col md>
-            <StarInJar />
+            <StarInJar/>
           </Col>
           <Col md>
             <Stirling />
           </Col>
         </Row>
-        <Row style={{alignContent: "center"}}>
-          <Col>
-            <Image src={Star} className="portfolioSizing" alt="fusor pic" />
-          </Col>
-          <Col>
-            <Image src={Engine}  className="portfolioSizing"
-              alt="engine pic"/>
-          </Col>
-        </Row>
-        <h2 class='text-center' ><u>Art Portfolio</u></h2>
+       
+          
+        <br/>
+        <h2 className="portFont text-center" ><u>Art Portfolio</u></h2>
         <Row style={{height: '300px'}}>
         <Plant />
         </Row>

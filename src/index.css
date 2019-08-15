@@ -59,10 +59,17 @@ body, html {
 
 .portfolioSizing{
   height: 200px;
+  margin-left: 50px;
+}
+
+.stirlingEngine{
+  height: 200px;
+  margin-left: 100px;
 }
 
 .artPortfolioSizing{
-  height: 25%;
+  width: 100%;
+  height: auto
 }
 
 .justify {
@@ -72,4 +79,8 @@ body, html {
 
 .nameFont {
   font-family: 'Pacifico', cursive;
+}
+
+.navbarFont {
+  font-family: 'Quando', serif;
 }

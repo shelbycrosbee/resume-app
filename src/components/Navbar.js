@@ -8,20 +8,24 @@ class NavbarComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='navbarFont'>
 
         <Navbar bg="dark" variant="dark" expand="md">
           <Navbar.Brand href="/">Shelby Miller</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#link">Contact</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
-              <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/portfolio">Portfolio</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.1">Physics</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Art</NavDropdown.Item>
+            <Nav.Link href="/resume">Resume</Nav.Link>
+              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+              <NavDropdown title="Contact" id="basic-nav-dropdown">
+                <NavDropdown.Item className="fas fa-phone-square-alt" href="tel:+15413069775" target="_blank">(541)306-9775</NavDropdown.Item>
+                <NavDropdown.Item className="far fa-envelope" href="mailto:shelbycrosbee@gmail.com" target="_blank">shelbycrosbee@gmail.com
+                </NavDropdown.Item>
+                <NavDropdown.Item className="fab fa-github-square" href="https://github.com/shelbycrosbee">shelbycrosbee
+                 </NavDropdown.Item>
+                <NavDropdown.Item className="fab fa-linkedin" href="https://www.linkedin.com/in/shelby-miller-00754a182/"
+                  target="_blank">Shelby
+            Miller</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
