@@ -12,7 +12,7 @@ class ResumeLink extends React.Component {
   render() {
     return (
  
-      <a onClick={e => this.handleResumeLink(e)}>Resume</a>
+      <a onClick={e => this.handleResumeLink(e)}>RESUME</a>
       
     )
   }

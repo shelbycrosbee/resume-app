@@ -23,9 +23,10 @@ body, html {
   }
 
 .resumeImg {
-  background-image: url('./images/ski.jpg');
-  background-size: cover;
-  background-repeat: no-repeat
+  background-image: url('./images/beartooth.JPG');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: center
 }
   
 .contactImg {
@@ -44,8 +45,9 @@ body, html {
 
 .headerImg {
   background-image: url('./images/laugh.png');
-   background-size: 100px;
-   background-repeat: no-repeat
+   background-size: 200px;
+   background-repeat: no-repeat;
+   margin-left: 50px;
 }
     
 .logo {
@@ -61,4 +63,13 @@ body, html {
 
 .artPortfolioSizing{
   height: 25%;
+}
+
+.justify {
+  justify-content: center;
+  background-color: black
+}
+
+.nameFont {
+  font-family: 'Pacifico', cursive;
 }

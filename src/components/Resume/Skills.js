@@ -16,6 +16,7 @@ class Skills extends React.Component {
             <ListGroup.Item>Highly organized</ListGroup.Item>
             <ListGroup.Item>Time management</ListGroup.Item>
             <ListGroup.Item>Reliability</ListGroup.Item>
+            <ListGroup.Item>Self-motivated</ListGroup.Item>
             <ListGroup.Item>Written and oral communication</ListGroup.Item>
             <ListGroup.Item>A positive, go-getter attitude</ListGroup.Item>
             <ListGroup.Item>First Aid and CPR certified</ListGroup.Item>
@@ -26,10 +27,13 @@ class Skills extends React.Component {
           <h3><u>TECHNICAL SKILLS</u></h3>
           <ListGroup>
             <ListGroup.Item>JavaScript</ListGroup.Item>
+            <ListGroup.Item>Github</ListGroup.Item>
             <ListGroup.Item>React</ListGroup.Item>
             <ListGroup.Item>HTML/CSS</ListGroup.Item>
             <ListGroup.Item>Bootstrap</ListGroup.Item>
             <ListGroupItem>Redux</ListGroupItem>
+            <ListGroup.Item>MySQL</ListGroup.Item>
+            <ListGroup.Item>Heroku</ListGroup.Item>
             <ListGroupItem>Adonis.js</ListGroupItem>
             <ListGroup.Item>Microsoft Office</ListGroup.Item>
             <ListGroup.Item>WordPress</ListGroup.Item>

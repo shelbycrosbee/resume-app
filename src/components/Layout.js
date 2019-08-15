@@ -6,7 +6,8 @@ import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
 import laugh from '../images/laugh.png'
 import logo from '../images/logo.png'
-
+import ContactPage from './Contact/ContactPage'
+import ScrollArea from 'react-scrollbar'
 
 
 class Layout extends React.Component {
@@ -22,20 +23,16 @@ class Layout extends React.Component {
   render() {
 
     return (
-      <div className='parallax'>
-        <Row style={{ height: '100px' }}>
-          <Col><Image src={logo} style={{ height: '100px' }} alt='logo' roundedCircle/></Col>
-
-          <Col><Image src={laugh} style={{ height: '100px' }} alt='header-pic' rounded /></Col>
+      <div>
+      <div className='parallax'><div></div>
+        <Row style={{height: "300px"}}>
+          <Col className='headerImg' src={laugh} alt='header-pic' rounded ></Col>
+          <Col><h1 className="nameFont">Shelby Miller</h1>
+          <Contact className="justify" />
+          </Col>
         </Row>
 
-        <div className='parallax'></div>
-        <Row
-          style={{ height: "500px" }}
-          className="contactImg justify-content-center">
-          <Contact />
-        </Row>
-        <div className='parallax'></div>
+
 
         <div className="parallax"></div>
         <Row
@@ -43,7 +40,7 @@ class Layout extends React.Component {
           className="resumeImg justify-content-center">
           <ResumeLink />
         </Row>
-        <div className="parallax"></div>
+       
 
         <div className="parallax"></div>
         <Row
@@ -53,6 +50,7 @@ class Layout extends React.Component {
         </Row>
         <div className="parallax"></div>
 
+      </div>
       </div>
     )
   }

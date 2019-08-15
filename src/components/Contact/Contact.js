@@ -13,7 +13,7 @@ render(){
     Contact
      </Dropdown.Toggle>
       <Dropdown.Menu>
-        <Dropdown.Item  className="fas fa-phone-square" href="tel:+15413069775" target="_blank">(541)306-977</Dropdown.Item>
+        <Dropdown.Item  className="fas fa-phone-square" href="tel:+15413069775" target="_blank">(541)306-9775</Dropdown.Item>
         <Dropdown.Item  className="far fa-envelope" href="mailto:shelbycrosbee@gmail.com" target="_blank">shelbycrosbee@gmail.com
         </Dropdown.Item>
         <Dropdown.Item className="fab fa-github-square" href="https://github.com/shelbycrosbee">shelbycrosbee

@@ -1,9 +1,13 @@
 import React from 'react';
 import { Col, Row, Container } from 'react-bootstrap'
+import './index.css'
 
 class Experience extends React.Component {
 
+
+  
   render() {
+   
     return (
       <Container>
       <Row className={'justify-content-center'}>
