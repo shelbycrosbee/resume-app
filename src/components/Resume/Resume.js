@@ -11,8 +11,9 @@ class Resume extends React.Component {
 
   render() {
     return (
-      <Container >
+      <div >
          <Navbar/> 
+         <Container>
         <br />
         <Row className='resFont'>
           <Experience />
@@ -32,8 +33,8 @@ class Resume extends React.Component {
         <Row className='resFont'>
           <Skills/>
         </Row>
-
-      </Container >
+        </Container>
+      </div >
 
     )
   }
