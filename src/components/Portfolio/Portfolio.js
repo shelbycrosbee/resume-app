@@ -34,8 +34,8 @@ class Portfolio extends React.Component {
               alt="engine pic"/>
           </Col>
         </Row>
-        <h2 class='text-center'><u>Art Portfolio</u></h2>
-        <Row>
+        <h2 class='text-center' ><u>Art Portfolio</u></h2>
+        <Row style={{height: '300px'}}>
         <Plant />
         </Row>
       </div>
