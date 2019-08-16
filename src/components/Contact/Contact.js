@@ -13,7 +13,7 @@ render(){
 
     <Dropdown className='dropdownFont'>
     <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
-    Contact
+    <u>Contact</u>
      </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item  className="fas fa-phone-square-alt" href="tel:+15413069775" target="_blank">(541)306-9775</Dropdown.Item>
