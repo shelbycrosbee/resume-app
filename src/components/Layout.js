@@ -28,14 +28,12 @@ class Layout extends React.Component {
             </Col>
           </Row>
 
-
-
           <div className="parallax" 
           style={{ height: '180px' }}
           ></div>
           <Row
             style={{ height: '300px' }}
-            className="resumeImg justify-content-center">
+            className="resumeImg justify-content-center" fluid>
             <ResumeLink />
           </Row>
 

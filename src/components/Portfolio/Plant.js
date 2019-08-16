@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Image } from 'react-bootstrap';
 import rPlant from '../../images/plant.jpg'
 import '../../index.css'
 import deer from '../../images/deer.JPG'
@@ -9,12 +9,13 @@ class Plant extends React.Component {
   render() {
     return (
 
-      <Carousel>
+      <Carousel className='mx-auto' style={{height: '500px'}}>
         <Carousel.Item>
-          <img
-            className="d-block w-100 artPortfolioSizing"
+          <Image
+            className="d-block w-100 carousel"
             src={rPlant}
             alt="robert plant"
+            fluid
           />
           <Carousel.Caption>
             <h3>Drawing of Robert Plant</h3>
@@ -23,7 +24,7 @@ class Plant extends React.Component {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 artPortfolioSizing"
+            className="d-block w-100 carousel"
             src={deer}
             alt="deer"
           />
@@ -33,8 +34,6 @@ class Plant extends React.Component {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-
-
 
     )
   }

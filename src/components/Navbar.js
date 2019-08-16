@@ -18,13 +18,13 @@ class NavbarComponent extends React.Component {
             <Nav.Link href="/resume">Resume</Nav.Link>
               <Nav.Link href="/portfolio">Portfolio</Nav.Link>
               <NavDropdown title="Contact" id="basic-nav-dropdown">
-                <NavDropdown.Item className="fas fa-phone" href="tel:+15413069775" target="_blank">(541)306-9775</NavDropdown.Item>
-                <NavDropdown.Item className="far fa-envelope" href="mailto:shelbycrosbee@gmail.com" target="_blank">shelbycrosbee@gmail.com
+                <NavDropdown.Item href="tel:+15413069775" target="_blank">📞 (541)306-9775</NavDropdown.Item>
+                <NavDropdown.Item href="mailto:shelbycrosbee@gmail.com" target="_blank"><i  className="far fa-envelope" ></i> shelbycrosbee@gmail.com
                 </NavDropdown.Item>
-                <NavDropdown.Item className="fab fa-github-square" href="https://github.com/shelbycrosbee">shelbycrosbee
+                <NavDropdown.Item href="https://github.com/shelbycrosbee"><i className="fab fa-github-square"></i> shelbycrosbee
                  </NavDropdown.Item>
-                <NavDropdown.Item className="fab fa-linkedin" href="https://www.linkedin.com/in/shelby-miller-00754a182/"
-                  target="_blank">Shelby
+                <NavDropdown.Item href="https://www.linkedin.com/in/shelby-miller-00754a182/"
+                  target="_blank"><i className="fab fa-linkedin" ></i> Shelby
             Miller</NavDropdown.Item>
               </NavDropdown>
             </Nav>

@@ -16,13 +16,13 @@ render(){
     <u>Contact</u>
      </Dropdown.Toggle>
       <Dropdown.Menu>
-      <Dropdown.Item  className="fas fa-phone" href="tel:+15413069775" target="_blank"> (541)306-9775</Dropdown.Item>
-        <Dropdown.Item  className="far fa-envelope" href="mailto:shelbycrosbee@gmail.com" target="_blank"> shelbycrosbee@gmail.com
+      <Dropdown.Item href="tel:+15413069775" target="_blank">📞 (541)306-9775</Dropdown.Item>
+        <Dropdown.Item href="mailto:shelbycrosbee@gmail.com" target="_blank"><i  className="far fa-envelope" ></i> shelbycrosbee@gmail.com
         </Dropdown.Item>
-        <Dropdown.Item className="fab fa-github-square" href="https://github.com/shelbycrosbee"> shelbycrosbee
+        <Dropdown.Item  href="https://github.com/shelbycrosbee"><i className="fab fa-github-square"></i> shelbycrosbee
         </Dropdown.Item>
-        <Dropdown.Item  className="fab fa-linkedin" href="https://www.linkedin.com/in/shelby-miller-00754a182/"
-            target="_blank"> Shelby
+        <Dropdown.Item href="https://www.linkedin.com/in/shelby-miller-00754a182/"
+            target="_blank"><i  className="fab fa-linkedin" ></i> Shelby
             Miller</Dropdown.Item>
             </Dropdown.Menu>
       </Dropdown>
