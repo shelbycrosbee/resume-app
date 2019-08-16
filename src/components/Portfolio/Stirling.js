@@ -12,8 +12,8 @@ class Stirling extends React.Component{
           </strong></a> </h4>
           Construction of a Stirling engine in order to investigate different thermodynamic
         properties
-        
-        <Image src={Engine} className="portfolioSizing" alt="fusor pic" />
+        <br/>
+        <Image src={Engine} className="mx-auto d-block stirlingEngine" alt="engine" fluid/>
     </Col>
     )
   }

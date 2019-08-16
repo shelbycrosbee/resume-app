@@ -18,7 +18,7 @@ class NavbarComponent extends React.Component {
             <Nav.Link href="/resume">Resume</Nav.Link>
               <Nav.Link href="/portfolio">Portfolio</Nav.Link>
               <NavDropdown title="Contact" id="basic-nav-dropdown">
-                <NavDropdown.Item className="fas fa-phone-square-alt" href="tel:+15413069775" target="_blank">(541)306-9775</NavDropdown.Item>
+                <NavDropdown.Item className="fas fa-phone" href="tel:+15413069775" target="_blank">(541)306-9775</NavDropdown.Item>
                 <NavDropdown.Item className="far fa-envelope" href="mailto:shelbycrosbee@gmail.com" target="_blank">shelbycrosbee@gmail.com
                 </NavDropdown.Item>
                 <NavDropdown.Item className="fab fa-github-square" href="https://github.com/shelbycrosbee">shelbycrosbee

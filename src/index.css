@@ -45,26 +45,21 @@ body, html {
 
 .headerImg {
   background-image: url('./images/laugh.png');
-   background-size: 200px;
+   background-size: 50%;
    background-repeat: no-repeat;
    margin-left: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px
 }
     
-.logo {
-  background-image: url('./images/logo.png');
-  background-size: 100px;
-  background-repeat: no-repeat;
-  align-content: flex-end
-} 
 
 .portfolioSizing{
   height: 200px;
-  margin-left: 50px;
 }
 
 .stirlingEngine{
   height: 200px;
-  margin-left: 100px;
+ 
 }
 
 .artPortfolioSizing{
@@ -79,6 +74,7 @@ body, html {
 
 .nameFont {
   font-family: 'Pacifico', cursive;
+ 
 }
 
 .navbarFont {

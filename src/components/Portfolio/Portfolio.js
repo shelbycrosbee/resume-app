@@ -1,10 +1,8 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap'
+import { Row, Col, } from 'react-bootstrap'
 import StarInJar from './StarInJar'
 import Stirling from './Stirling';
 import Navbar from '../Navbar'
-import Engine from '../../images/enginesilhouette.jpg'
-import Star from '../../images/starjar.jpg'
 import Plant from './Plant'
 import './index.css'
 
@@ -20,10 +18,10 @@ class Portfolio extends React.Component {
         <br/>
         <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
         <Row className="portFont">
-          <Col md>
+          <Col md={6}>
             <StarInJar/>
           </Col>
-          <Col md>
+          <Col md={6}>
             <Stirling />
           </Col>
         </Row>
