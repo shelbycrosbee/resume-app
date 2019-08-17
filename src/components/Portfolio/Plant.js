@@ -9,7 +9,7 @@ class Plant extends React.Component {
   render() {
     return (
 
-      <Carousel className='mx-auto' style={{height: '500px'}}>
+      <Carousel className='mx-auto' style={{height: '700px'}}>
         <Carousel.Item>
           <Image
             className="d-block w-100 carousel"
@@ -29,7 +29,18 @@ class Plant extends React.Component {
             alt="deer"
           />
           <Carousel.Caption>
-            <h3>Painting of Buck</h3>
+            <h3>Painting of a Buck</h3>
+            <p>Watercolor 4ft by 2.5ft</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel"
+            src={deer}
+            alt="deer"
+          />
+          <Carousel.Caption>
+            <h3>Painting of a Buck</h3>
             <p>Watercolor 4ft by 2.5ft</p>
           </Carousel.Caption>
         </Carousel.Item>

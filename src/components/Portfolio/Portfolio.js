@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
       <div>
         <Navbar />
         <br/>
-        <h2 className="portFont text-center"><u>Undergraduate Physics Projects</u></h2>
+        <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
         <br/>
         <Row className="portFont">
           <Col md={6}>
@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
        
           
         <br/>
-        <h2 className="portFont text-center" ><u>Art Portfolio</u></h2>
+        <h2 className="portFont text-center" >Art Portfolio</h2>
         <Row style={{height: '300px'}}>
         <Plant />
         </Row>

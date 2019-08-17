@@ -5,7 +5,8 @@ class PortfolioLink extends React.Component {
 
 handlePortfolioLink(e){
   e.preventDefault();
-  this.props.history.push('/portfolio')
+  this.props.history.push('/portfolio');
+  window.scrollTo(0,0)
 }
 
   render() {

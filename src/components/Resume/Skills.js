@@ -4,7 +4,7 @@ import { Col, Row, ListGroup, ListGroupItem } from 'react-bootstrap'
 class Skills extends React.Component {
   render() {
     return (
-      <Row>
+      <Row className='mx-auto'>
 
         <Col xs>
           <h3><u>GENERAL STRENGTHS</u></h3>
