@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, } from 'react-bootstrap'
+import { Row, Col, Container, } from 'react-bootstrap'
 import StarInJar from './StarInJar'
 import Stirling from './Stirling';
 import Navbar from '../Navbar'
@@ -15,6 +15,7 @@ class Portfolio extends React.Component {
     return (
       <div>
         <Navbar />
+        <Container>
         <br/>
         <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
         <br/>
@@ -33,6 +34,7 @@ class Portfolio extends React.Component {
         <Row style={{height: '300px'}}>
         <Plant />
         </Row>
+        </Container>
       </div>
     )
   }
