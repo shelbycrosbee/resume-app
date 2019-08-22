@@ -35,15 +35,26 @@ class References extends React.Component {
 
         <Dropdown>
           <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-            <u>Micheal Broide</u><br />Physics Professor
+            <u>Mark Buckner</u><br />Code School Instructor
             </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href="tel:+15037687581" target="_blank"> (503)768-7581</Dropdown.Item><br />
-            <Dropdown.Item href="mailto:broide@lclark.edu" target="_blank"> broide@lclark.edu</Dropdown.Item>
+            {/* <Dropdown.Item href="tel:+15037687581" target="_blank"> (503)768-7581</Dropdown.Item><br /> */}
+            <Dropdown.Item href="mailto:mark@montanacodeschool.com" target="_blank"> mark@montanacodeschool.com</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
 
         <br />
+
+        <Dropdown>
+          <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+            <u>Georgie Kirschner</u><br />Code School Instructor
+            </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href="mailto:georgie@montanacodeschool.com" target="_blank"> georgie@montanacodeschool.com</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+
+      <br/>
 
         <Dropdown>
           <Dropdown.Toggle variant="secondary" id="dropdown-basic">
@@ -65,6 +76,7 @@ class References extends React.Component {
             <Dropdown.Item href="mailto:christi@northwestcrossing.com" target="_blank">christi@northwestcrossing.com</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        <br/>
       </Container>
     )
   }
