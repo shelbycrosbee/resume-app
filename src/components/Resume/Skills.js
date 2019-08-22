@@ -30,7 +30,7 @@ class Skills extends React.Component {
             <ListGroup.Item>Github</ListGroup.Item>
             <ListGroup.Item>React</ListGroup.Item>
             <ListGroup.Item>HTML/CSS</ListGroup.Item>
-            <ListGroup.Item>Bootstrap</ListGroup.Item>
+            <ListGroup.Item>CSS Frameworks</ListGroup.Item>
             <ListGroupItem>Redux</ListGroupItem>
             <ListGroup.Item>MySQL</ListGroup.Item>
             <ListGroup.Item>Heroku</ListGroup.Item>
