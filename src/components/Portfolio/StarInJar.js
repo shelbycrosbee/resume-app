@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Image } from 'react-bootstrap';
 import Star from '../../images/starjar.jpg'
+import '../../index.css'
 
 class StarInJar extends React.Component {
 

@@ -20,10 +20,10 @@ class Portfolio extends React.Component {
         <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
         <br/>
         <Row className="portFont">
-          <Col md={6}>
+          <Col md={6} sm={12}>
             <StarInJar/>
           </Col>
-          <Col md={6}>
+          <Col>
             <Stirling />
           </Col>
         </Row>
