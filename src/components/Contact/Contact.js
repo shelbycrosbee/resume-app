@@ -12,7 +12,7 @@ render(){
   return(
 
     <Dropdown className='dropdownFont'>
-    <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
+    <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components" >
     <u>Contact</u>
      </Dropdown.Toggle>
       <Dropdown.Menu>
