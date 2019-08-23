@@ -25,7 +25,7 @@ class Layout extends React.Component {
           <Row 
           style={{ height: '300px' }}>
             <Col md >
-              <Image src={laugh} className="headerImg" alt='header-pic' rounded fluid/>
+              <Image src={laugh} className="headerImg" alt='header-pic' rounded/>
             </Col>
             <Col><h1 className="nameFont">Shelby Miller</h1>
               <Contact className="justify" />
