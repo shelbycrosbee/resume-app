@@ -31,7 +31,9 @@ class Portfolio extends React.Component {
           
         <br/>
         <h2 className="portFont text-center" >Art Portfolio</h2>
-        <Row style={{height: '300px'}}>
+        <Row 
+        //style={{height: '300px'}}
+        >
         <Plant />
         </Row>
         </Container>
