@@ -17,6 +17,9 @@ class Portfolio extends React.Component {
         <Navbar />
         <Container>
         <br/>
+        <h2 className="portFont text-center">Coding Projects</h2>
+        <br/>
+        <br/>
         <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
         <br/>
         <Row className="portFont">
