@@ -27,8 +27,6 @@ class Portfolio extends React.Component {
             <Stirling />
           </Col>
         </Row>
-       
-          
         <br/>
         <h2 className="portFont text-center" >Art Portfolio</h2>
         <Row 

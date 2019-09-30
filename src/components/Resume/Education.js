@@ -21,8 +21,7 @@ class Education extends React.Component{
       <h5><strong>Montana Code School</strong><br />
         <small>Bozeman, MT </small><br /><small>2019</small></h5>
       <ul>
-        <li>Learned basics of software development including:
-          JavaScript, CSS, HTML, Bootstrap React, MySQL...
+        <li>Learned full stack software developement skills focused in JavaScript and React
     </li>
 
       </ul>
