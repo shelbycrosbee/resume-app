@@ -28,7 +28,6 @@ class Resume extends React.Component {
             <References/>
           </Col>
         </Row>
-
     
         <Row className='resFont'>
           <Skills/>
