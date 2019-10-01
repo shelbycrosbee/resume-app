@@ -5,6 +5,7 @@ import Stirling from './Stirling';
 import Navbar from '../Navbar'
 import Plant from './Plant'
 import './index.css'
+import Syncd from './Syncd';
 
 
 
@@ -18,6 +19,10 @@ class Portfolio extends React.Component {
         <Container>
         <br/>
         <h2 className="portFont text-center">Coding Projects</h2>
+        <Row style={{justifyContent: 'center'}}>
+          <Col md={6}><Syncd /></Col>
+         
+          </Row>
         <br/>
         <br/>
         <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
