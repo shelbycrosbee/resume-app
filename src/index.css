@@ -44,9 +44,10 @@ body, html {
 }
 
 .bioImg{
-  background-image: url('./images/moab.JPG');
+  background-image: url('./images/purejoy.JPG');
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  background-position: center
 }
 
 .headerImg {
