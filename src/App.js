@@ -3,6 +3,7 @@ import Resume from "./components/Resume/Resume";
 import { Route, Switch } from 'react-router-dom';
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio/Portfolio'
+import Bio from './components/Bio/Bio';
 
 
 function App() {
@@ -14,9 +15,13 @@ function App() {
       <Route path="/portfolio" render={props =>
         <Portfolio />
       }/>
+       <Route path="/bio" render={props =>
+        <Bio />
+      }/>
       <Route exact path="/" render={props =>
           <Layout/>
         }/>
+
     </Switch>
   );
 }

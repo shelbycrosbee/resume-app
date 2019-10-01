@@ -43,6 +43,12 @@ body, html {
   background-repeat: no-repeat
 }
 
+.bioImg{
+  background-image: url('./images/moab.JPG');
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
 .headerImg {
   /* background-image: url('./images/laugh.png'); */
    height: 200px;

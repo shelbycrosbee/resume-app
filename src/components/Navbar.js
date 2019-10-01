@@ -28,6 +28,7 @@ class NavbarComponent extends React.Component {
                   target="_blank"><i className="fab fa-linkedin" ></i> Shelby
             Miller</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="/bio">About Me </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

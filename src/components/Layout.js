@@ -5,6 +5,8 @@ import Contact from './Contact/Contact'
 import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
 import laugh from '../images/laugh.png'
+import Bio from "./Bio/Bio";
+import BioLink from "./Bio/BioLink";
 
 
 class Layout extends React.Component {
@@ -35,7 +37,7 @@ class Layout extends React.Component {
         
 
           <div className="parallax" 
-          style={{ height: '150px' }}
+          style={{ height: '100px' }}
           ></div>
           <Row
             style={{ height: '300px' }}
@@ -45,7 +47,7 @@ class Layout extends React.Component {
 
 
           <div className="parallax"
-          style={{ height: '150px' }}
+          style={{ height: '120px' }}
           ></div>
           <Row
             style={{ height: '300px' }}
@@ -53,7 +55,14 @@ class Layout extends React.Component {
             <PortfolioLink />
           </Row>
 
-          
+          <div className="parallax"
+          style={{ height: '120px' }}
+          ></div>
+          <Row
+            style={{ height: '300px' }}
+            className="bioImg justify-content-center">
+            <BioLink />
+          </Row>
 
           <div className="parallax"
           style={{ height: '100vh' }}
