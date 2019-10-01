@@ -22,10 +22,15 @@
 }
 
 .syncdUp{
-  width:35%;
-  height:35%;
+  margin-bottom: .5em;
+  height: 9em;
 }
 
 .erika{
-  height: 200px;
+  height: 9em;
+}
+
+.bison{
+  height: 9em;
+
 }
