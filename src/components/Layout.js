@@ -53,6 +53,8 @@ class Layout extends React.Component {
             <PortfolioLink />
           </Row>
 
+          
+
           <div className="parallax"
           style={{ height: '100vh' }}
           ></div>
