@@ -23,7 +23,7 @@ class Layout extends React.Component {
       <div>
         <div className='parallax'><div></div>
           <Row 
-          style={{ height: '300px' }}>
+          style={{ height: '200px' }}>
             <Col md >
               <Image src={laugh} className="headerImg" alt='header-pic' rounded/>
             </Col>
@@ -54,7 +54,7 @@ class Layout extends React.Component {
           </Row>
 
           <div className="parallax"
-          style={{ height: '180px' }}
+          style={{ height: '100vh' }}
           ></div>
 
         </div>

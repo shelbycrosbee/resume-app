@@ -6,6 +6,7 @@ import Navbar from '../Navbar'
 import Plant from './Plant'
 import './index.css'
 import Syncd from './Syncd';
+import Erika from './Erika';
 
 
 
@@ -18,14 +19,14 @@ class Portfolio extends React.Component {
         <Navbar />
         <Container>
         <br/>
-        <h2 className="portFont text-center">Coding</h2>
+        <h2 className="portFont text-center"><b>Coding</b></h2>
         <Row style={{justifyContent: 'center'}}>
           <Col style={{justifyContent: 'center', textAlign:'center'}} md={6}><Syncd /></Col>
-         
+         <Col style={{justifyContent: 'center', textAlign:'center'}} md={6}><Erika /></Col>
           </Row>
         <br/>
         <br/>
-        <h2 className="portFont text-center">Undergraduate Physics Projects</h2>
+        <h2 className="portFont text-center"><b>Undergraduate Physics Projects</b></h2>
         <br/>
         <Row className="portFont">
           <Col md={6} sm={12}>
@@ -36,7 +37,7 @@ class Portfolio extends React.Component {
           </Col>
         </Row>
         <br/>
-        <h2 className="portFont text-center" >Art Portfolio</h2>
+        <h2 className="portFont text-center" ><b>Art Portfolio</b></h2>
         <Row 
         //style={{height: '300px'}}
         >
