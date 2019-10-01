@@ -35,7 +35,7 @@ class Layout extends React.Component {
         
 
           <div className="parallax" 
-          style={{ height: '280px' }}
+          style={{ height: '200px' }}
           ></div>
           <Row
             style={{ height: '300px' }}
@@ -45,7 +45,7 @@ class Layout extends React.Component {
 
 
           <div className="parallax"
-          style={{ height: '280px' }}
+          style={{ height: '180px' }}
           ></div>
           <Row
             style={{ height: '300px' }}

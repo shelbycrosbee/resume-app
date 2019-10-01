@@ -18,9 +18,9 @@ class Portfolio extends React.Component {
         <Navbar />
         <Container>
         <br/>
-        <h2 className="portFont text-center">Coding Projects</h2>
+        <h2 className="portFont text-center">Coding</h2>
         <Row style={{justifyContent: 'center'}}>
-          <Col md={6}><Syncd /></Col>
+          <Col style={{justifyContent: 'center', textAlign:'center'}} md={6}><Syncd /></Col>
          
           </Row>
         <br/>
