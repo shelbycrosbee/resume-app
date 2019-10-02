@@ -13,7 +13,7 @@ export default class Syncd extends Component {
         
         <Button href='https://syncd-up.herokuapp.com/' target='blank'> Syncd-Up </Button>
 
-        <p>This app allows friends to stay in sync while listening to playlists together. Skip a song, pause, play but stay synced.</p>
+        <p>This app allows friends to stay in sync while listening to playlists together. Skip a song, pause, play but continue to stay synced.</p>
 
       </Container>
     )

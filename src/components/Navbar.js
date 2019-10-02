@@ -12,7 +12,7 @@ class NavbarComponent extends React.Component {
       <div className='navbarFont'>
 
         <Navbar style={{ backgroundColor: 'grey'}} variant="dark" expand="md">
-          <Navbar.Brand href="/">Shelby Miller</Navbar.Brand>
+          <Navbar.Brand href="/" style={{fontSize:'1.7em'}}>Shelby Miller</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

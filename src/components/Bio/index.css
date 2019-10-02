@@ -1,0 +1,14 @@
+.bioBackground{
+  /* background-attachment: fixed; */
+  background-image: url("../../images/nepal.JPG");
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.bioFont{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem
+}

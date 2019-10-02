@@ -22,11 +22,11 @@ class Portfolio extends React.Component {
           <br />
           <h2 className="portFont text-center"><b>Coding</b></h2>
           <Row style={{ justifyContent: 'center' }}>
-            <Col style={{ justifyContent: 'center', textAlign: 'center' }} md={4} lg={4}><Syncd /></Col>
+            <Col style={{ textAlign: 'center' }} md={4} lg={4} sm={6}><Syncd /></Col>
 
-            <Col style={{ justifyContent: 'center', textAlign: 'center' }} md={4} lg={4}><Buffalo /></Col>
+            <Col style={{ textAlign: 'center' }} md={5} lg={4} sm={6}><Buffalo /></Col>
 
-            <Col style={{ justifyContent: 'center', textAlign: 'center' }} md={4} lg={4}><Erika /></Col>
+            <Col style={{ textAlign: 'center' }} md={4} lg={4} sm={6}><Erika /></Col>
           </Row>
           <br />
           <br />
