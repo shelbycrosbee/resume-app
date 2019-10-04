@@ -24,36 +24,60 @@ body, html {
   }
 
 .resumeImg {
+  /* background-image: url('./images/beartooth.JPG');
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  background-position: center; */
+  justify-content: center;
+  height: 50px;
+}
+  
+.resumeImg:hover{
   background-image: url('./images/beartooth.JPG');
   background-size: 2000px;
   background-repeat: no-repeat;
   background-position: center;
- 
-}
-  
-.contactImg {
-  background-image: url('./images/headstand.JPG');
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  
+  block-size: 80vh;
+  transition-delay: .5s;
 }
 
 .portfolioImg {
+  /* background-image: url('./images/sunset.JPG');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  justify-content: center;
+  height: 50px
+  
+}
+
+.portfolioImg:hover{
   background-image: url('./images/sunset.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-
+  block-size: 80vh;
 }
 
+
+
 .bioImg{
+  /* background-image: url('./images/purejoy.JPG'); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  justify-content: center;
+  /* height: 300px */
+}
+
+.bioImg:hover{
   background-image: url('./images/purejoy.JPG');
+  block-size: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
+
+
 
 .headerImg {
   /* background-image: url('./images/laugh.png'); */

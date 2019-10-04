@@ -10,12 +10,8 @@ import BioLink from "./Bio/BioLink";
 
 
 class Layout extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      pictures: null
-    }
+  constructor() {
+    super();
   }
 
 
@@ -24,48 +20,45 @@ class Layout extends React.Component {
     return (
       <div>
         <div className='parallax'><div></div>
-          <Row 
-          style={{ height: '200px' }}>
+          <Row
+            style={{ height: '200px' }}>
             <Col md >
-              <Image src={laugh} className="headerImg" alt='header-pic' rounded/>
+              <Image src={laugh} className="headerImg" alt='header-pic' rounded />
             </Col>
             <Col><h1 className="nameFont">Shelby Miller</h1>
               <Contact className="justify" />
             </Col>
           </Row>
-         
-        
 
-          <div className="parallax" 
-          style={{ height: '100px' }}
+
+
+          <div className="parallax"
+            style={{ height: '100px' }}
           ></div>
           <Row
-            style={{ height: '300px' }}
-            className="resumeImg justify-content-center" fluid>
+            className="resumeImg" fluid>
             <ResumeLink />
           </Row>
 
 
           <div className="parallax"
-          style={{ height: '120px' }}
+            style={{ height: '120px' }}
           ></div>
           <Row
-            style={{ height: '300px' }}
-            className="portfolioImg justify-content-center">
+            className="portfolioImg">
             <PortfolioLink />
           </Row>
 
           <div className="parallax"
-          style={{ height: '120px' }}
+            style={{ height: '120px' }}
           ></div>
           <Row
-            style={{ height: '300px' }}
-            className="bioImg justify-content-center">
+            className="bioImg">
             <BioLink />
           </Row>
 
           <div className="parallax"
-          style={{ height: '90vh' }}
+            style={{ height: '90vh' }}
           ></div>
 
         </div>
