@@ -33,11 +33,11 @@ body, html {
 }
   
 .resumeImg:hover{
-  background-image: url('./images/beartooth.JPG');
-  background-size: 2000px;
+  background-image: url('./images/beartooth.jpeg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  block-size: 80vh;
+  block-size: 40vh;
   transition-delay: .5s;
 }
 
@@ -46,7 +46,7 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat; */
   justify-content: center;
-  height: 50px
+  /* height: 40px */
   
 }
 
@@ -54,7 +54,7 @@ body, html {
   background-image: url('./images/sunset.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  block-size: 80vh;
+  block-size: 40vh;
 }
 
 
@@ -70,7 +70,7 @@ body, html {
 
 .bioImg:hover{
   background-image: url('./images/purejoy.JPG');
-  block-size: 80vh;
+  block-size: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -95,7 +95,6 @@ body, html {
 
 .stirlingEngine{
   height: 300px;
- 
 }
 
 .artPortfolioSizing{
