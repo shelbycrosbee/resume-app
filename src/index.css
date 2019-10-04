@@ -20,34 +20,39 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
   }
 
 .resumeImg {
   background-image: url('./images/beartooth.JPG');
   background-size: 2000px;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+ 
 }
   
 .contactImg {
   background-image: url('./images/headstand.JPG');
   background-size: 500px;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+
   
 }
 
 .portfolioImg {
   background-image: url('./images/sunset.JPG');
   background-size: cover;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+
 }
 
 .bioImg{
   background-image: url('./images/purejoy.JPG');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+
 }
 
 .headerImg {
