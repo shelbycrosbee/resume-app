@@ -11,7 +11,7 @@ handlePortfolioLink(e){
 
   render() {
     return (
-      <a onClick = {e => this.handlePortfolioLink(e)} className='link resHeader'>PORTFOLIO</a>
+      <a onClick = {e => this.handlePortfolioLink(e)} className='link resHeader' style={{color: "white"}}>PORTFOLIO</a>
     )
   }
 }

@@ -7,8 +7,7 @@ export default class Bio extends Component {
   render() {
     return (
       < div className='bioBackground'>
-        <Navbar />
-        <Container style={{ marginTop: "1em" }} style={{ marginTop: '3em'}}>
+        <Container >
           <Row  className='bioFont'>
           <Col>
           Hey there! My name is Shelby Miller, thanks for visiting my website. I am an adventure enthusiast who dabbles in the wild world of coding. I love making ideas a reality by combining creativity with the exciting tools software development offers.

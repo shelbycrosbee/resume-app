@@ -15,6 +15,7 @@ class Layout extends React.Component {
   }
 
 
+
   render() {
 
     return (
@@ -33,7 +34,7 @@ class Layout extends React.Component {
 
 
           <div className="parallax"
-            style={{ height: '100px' }}
+            style={{ height: '120px' }}
           ></div>
           <Row
             className="resumeImg resFont" fluid>
@@ -42,7 +43,7 @@ class Layout extends React.Component {
 
 
           <div className="parallax"
-            style={{ height: '120px' }}
+            style={{ height: '200px' }}
           ></div>
           <Row
             className="portfolioImg resFont">
@@ -50,11 +51,11 @@ class Layout extends React.Component {
           </Row>
 
           <div className="parallax"
-            style={{ height: '120px' }}
+            style={{ height: '200px' }}
           ></div>
           <Row
             className="bioImg resFont">
-            <BioLink />
+              <BioLink />
           </Row>
 
           <div className="parallax"

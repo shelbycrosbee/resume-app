@@ -71,8 +71,8 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  animation: open;
-  animation-duration: 3s;
+  /* animation: open;
+  animation-duration: 1s; */
 }
 
 
@@ -120,3 +120,4 @@ body, html {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import { withRouter, } from 'react-router-dom'
+import { whileStatement } from '@babel/types';
 
 class BioLink extends React.Component {
 
@@ -11,7 +12,7 @@ handleBioLink(e){
 
   render() {
     return (
-      <a onClick = {e => this.handleBioLink(e)} className='link resHeader'>ABOUT ME</a>
+      <a onClick = {e => this.handleBioLink(e)} className='link resHeader' style={{color: "white"}}>ABOUT ME</a>
     )
   }
 }
