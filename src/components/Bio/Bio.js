@@ -7,6 +7,7 @@ export default class Bio extends Component {
   render() {
     return (
       < div className='bioBackground'>
+<Navbar />
         <Container >
           <Row  className='bioFont'>
           <Col>
