@@ -14,7 +14,7 @@ class ResumeLink extends React.Component {
   render() {
     return (
  
-      <a onClick={e => this.handleResumeLink(e)} className='resHeader' style={{color: "white", hover: "black"}}>RESUME</a>
+      <a onClick={e => this.handleResumeLink(e)} className='resHeader' style={{color: "white"}}>RESUME</a>
       
     )
   }
