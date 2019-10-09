@@ -55,17 +55,14 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   block-size: 40vh;
+
 }
 
 
 
 .bioImg{
-  /* background-image: url('./images/purejoy.JPG'); */
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   justify-content: center;
-  /* height: 300px */
+
 }
 
 .bioImg:hover{
@@ -74,7 +71,8 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
+  animation: open;
+  animation-duration: 3s;
 }
 
 
@@ -118,3 +116,7 @@ body, html {
   font-size: 1.5em
 }
 
+@keyframes open {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
