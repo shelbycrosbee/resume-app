@@ -36,7 +36,7 @@ class Layout extends React.Component {
             style={{ height: '100px' }}
           ></div>
           <Row
-            className="resumeImg" fluid>
+            className="resumeImg resFont" fluid>
             <ResumeLink />
           </Row>
 
@@ -45,7 +45,7 @@ class Layout extends React.Component {
             style={{ height: '120px' }}
           ></div>
           <Row
-            className="portfolioImg">
+            className="portfolioImg resFont">
             <PortfolioLink />
           </Row>
 
@@ -53,7 +53,7 @@ class Layout extends React.Component {
             style={{ height: '120px' }}
           ></div>
           <Row
-            className="bioImg">
+            className="bioImg resFont">
             <BioLink />
           </Row>
 

@@ -4,11 +4,12 @@
   /* color:rgb(253, 251, 232)!important */
 }
 
-/* .resHeader:hover{
+.resFont:hover{
   color:black!important;
-} */
+}
 
 .resFont {
   font-family: 'Be Vietnam', sans-serif;
+  color: rgb(252, 242, 200);
 }
 
