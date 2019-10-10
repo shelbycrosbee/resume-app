@@ -22,7 +22,7 @@ class Layout extends React.Component {
       <div>
         <div className='parallax'><div></div>
           <Row
-            style={{ height: '200px' }}>
+            style={{ height: '200px', marginBottom: "1em" }}>
             <Col md >
               <Image src={laugh} className="headerImg" alt='header-pic' rounded />
             </Col>
@@ -33,9 +33,9 @@ class Layout extends React.Component {
 
 
 
-          <div className="parallax"
-            style={{ height: '120px' }}
-          ></div>
+          <Row className="parallax"
+            style={{ height: '180px' }}
+          ></Row>
           <Row
             className="resumeImg resFont" fluid>
             <ResumeLink />
