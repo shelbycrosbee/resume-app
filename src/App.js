@@ -1,6 +1,6 @@
 import React from 'react';
 import Resume from "./components/Resume/Resume";
-import { Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio/Portfolio'
 import Bio from './components/Bio/Bio';

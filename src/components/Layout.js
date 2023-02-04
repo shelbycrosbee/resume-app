@@ -5,14 +5,10 @@ import Contact from './Contact/Contact'
 import ResumeLink from './Resume/ResumeLink'
 import PortfolioLink from "./Portfolio/PortfolioLink";
 import laugh from '../images/laugh.png'
-import Bio from "./Bio/Bio";
 import BioLink from "./Bio/BioLink";
 
 
 class Layout extends React.Component {
-  constructor() {
-    super();
-  }
 
 
 

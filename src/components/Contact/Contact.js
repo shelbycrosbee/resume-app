@@ -17,7 +17,7 @@ render(){
     <u>Contact</u>
      </Dropdown.Toggle>
       <Dropdown.Menu>
-      <Dropdown.Item className='menuFont' href="tel:+15413069775" target="_blank">📞 (541)306-9775</Dropdown.Item>
+      <Dropdown.Item className='menuFont' href="tel:+15413069775" target="_blank"><span role="img" aria-label='phone'>📞 </span>(541)306-9775</Dropdown.Item>
         <Dropdown.Item className='menuFont' href="mailto:shelbycrosbee@gmail.com" target="_blank"><i  className="far fa-envelope" ></i> shelbycrosbee@gmail.com
         </Dropdown.Item>
         <Dropdown.Item className='menuFont' href="https://github.com/shelbycrosbee"><i className="fab fa-github-square"></i> shelbycrosbee
